@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.site {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: hsl(190, 30%, 96%);
+    font-family: 'Lato' sans-serif;
+    line-height: 1.5;
+}
+
+.section__header {
+    text-align: center;
+}
+
+.mainHeader {
+    max-width: 1000px;
+    margin: 10px 50px 50px 50px;
+}
+
+.navigation {
+    padding: 20px;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(226, 240, 240);
+    margin: auto auto 20px;
+    padding: 10px 0;
+    border-top: 5px dotted rgb(25, 69, 77);
+    border-bottom: 5px dotted rgb(25, 69, 77);
+    border-left: 5px dotted rgb(25, 69, 77);
+    border-right: 5px dotted rgb(25, 69, 77);
+}
+
+.navigation__item {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.navigation__link {
+    color: rgb(4, 6, 7);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation__link:hover {
+    color: rgb(0, 19, 83);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: rgb(49, 162, 255);
+}
+
+.section {
+    margin: 15px auto;
+    padding: 5px;
+}
+
+.section__informations {
+    color: black;
+    margin: auto;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.section__paragraph {
+    margin: auto;
+    padding: 10px;
+    line-height: 25px;
+    font-size: large;
+}
+
+.section__hobby {
+    color: black;
+    margin: auto;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.section__listItem {
+    margin: 10px 0;
+    font-size: large;
+}
+
+.section__list {
+    padding-left: 20px;
+    text-align: left;
+    list-style-type: square;
+}
+
+.container__animes {
+    color: black;
+    margin: auto;
+    padding: 10px;
+    line-height: 25px;
+    caption-side: top;
+    text-align: center;
+}
+
+.container__table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.container__tableCell {
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container__tableHeader {
+    background-color: rgb(169, 224, 217);
+    color: rgb(19, 2, 58);
+    font-weight: bold;
+}
+
+.container__tableRow:nth-child(even) {
+    background: #eee;
+}
+
+.container__tableRow:hover {
+    background: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 50px 50px 0px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.container__caption {
+    caption-side: top;
+    text-align: right;
+    font-style: italic;
+}
+
+
+.blueTheme {
+    background: rgb(203, 224, 236);
+}
